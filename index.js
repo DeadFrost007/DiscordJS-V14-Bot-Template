@@ -1,6 +1,7 @@
 const { Client, Partials, Collection, GatewayIntentBits } = require('discord.js');
 const config = require('./config/config.json');
 const colors = require("colors");
+;
 
 // Creating a new client:
 const client = new Client({
@@ -33,7 +34,7 @@ require('http').createServer((req, res) => res.end('Ready.')).listen(3000);
 
 // Getting the bot token:
 const AuthenticationToken = process.env.TOKEN || config.Client.TOKEN;
-if (!AuthenticationToken) {
+if (!process.env.TOKEN) {
   console.warn("[CRASH] Authentication Token for Discord bot is required! Use Envrionment Secrets or config.json.".red + "\n")
   return process.exit();
 };
