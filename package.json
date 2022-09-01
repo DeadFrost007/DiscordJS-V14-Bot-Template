@@ -18,5 +18,13 @@
     "ms": "^2.1.3",
     "node-fetch": "^2.6.7",
     "quick.db": "^9.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeadFrost007/DiscordJS-V14-Bot-Template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DeadFrost007/DiscordJS-V14-Bot-Template/issues"
+  },
+  "homepage": "https://github.com/DeadFrost007/DiscordJS-V14-Bot-Template#readme"
 }

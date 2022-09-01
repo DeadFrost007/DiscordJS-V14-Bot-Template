@@ -50,7 +50,7 @@ module.exports = client;
 });
 
 // Login to the bot:
-client.login(AuthenticationToken)
+client.login(process.env.TOKEN)
   .catch((err) => {
     console.error("[CRASH] Something went wrong while connecting to your bot..." + "\n");
     console.error("[CRASH] Error from Discord API:" + err);
